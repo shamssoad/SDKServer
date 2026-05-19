@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/validate.ts": {
-      "runtime": "@vercel/node"
-    }
-  },
   "rewrites": [
     { "source": "/validate", "destination": "/api/validate" }
   ]
